@@ -5,10 +5,11 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    background: rgb(143, 188, 188)
 }
 nav{
     /* border: 20px solid tomato; */
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(4, 52, 52));
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(4, 52, 52));
 }
 .ulbox{
     /* border: 10px dotted white; */
@@ -24,13 +25,20 @@ nav{
     align-items: center;
 }
 .logbox img{
-    width: 10%;
+    width: 15%;
     object-fit: cover;
     margin-right: 1%;
 }
 .Slogo{
     color: white;
-    font-size: 170%;
+    font-size: 140%;
     justify-content: left;
+    
         
+}
+.text-link , .logo-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+
 }
