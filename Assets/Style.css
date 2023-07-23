@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    /* border: 20px solid tomato; */
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(4, 52, 52));
+}
+.ulbox{
+    /* border: 10px dotted white; */
+    min-height: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+.logbox{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.logbox img{
+    width: 10%;
+    object-fit: cover;
+    margin-right: 1%;
+}
+.Slogo{
+    color: white;
+    font-size: 170%;
+    justify-content: left;
+        
+}
